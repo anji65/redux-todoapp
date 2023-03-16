@@ -1,5 +1,7 @@
-import {todoReducer} from './Reducer'
+import { todoReducer } from './Reducer'
+import { userReducer } from './UserReducer'
 
 export const indexReducer = {
-    globalState: todoReducer
+    globalState: todoReducer,
+    usersState: userReducer
 }

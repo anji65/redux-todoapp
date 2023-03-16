@@ -14,3 +14,14 @@ export const createdTodoSuccess = (data) => {
         todo: data
     }
 }
+
+export const deleteTodoList = (todoId) => {
+    return {
+        type: TODOACTIONS.DELETE_TODO,
+        todoId: todoId
+    }
+}
+
+
+
+
